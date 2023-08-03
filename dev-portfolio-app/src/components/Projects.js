@@ -11,7 +11,7 @@ const Projects = () => {
           <div className="bg-white p-4">
             <h2 className="text-xl font-bold">Project 1</h2>
             <div className="flex flex-col md:flex-row items-center">
-              <img src="project1.jpg" alt="Project 1" className="w-full md:w-1/2 p-2" />
+              <img src="../assets/images/CareConnect.PNG" alt="Project 1" className="w-full md:w-1/2 p-2" />
               <p className="py-2 md:w-1/2">
                 Description of Project 1. This will have an image on the left.
               </p>
@@ -22,7 +22,7 @@ const Projects = () => {
           <div className="bg-white p-4">
             <h2 className="text-xl font-bold">Project 2</h2>
             <div className="flex flex-col-reverse md:flex-row items-center">
-              <img src="project2.jpg" alt="Project 2" className="w-full md:w-1/2 p-2" />
+              <img src="dev-portfolio-app\src\assets\images\CareConnect.PNG" alt="Project 2" className="w-full md:w-1/2 p-2" />
               <p className="py-2 md:w-1/2">
                 Description of Project 2. This will have an image on the right.
               </p>
@@ -44,7 +44,7 @@ const Projects = () => {
           <div className="bg-white p-4">
             <h2 className="text-xl font-bold">Project 4</h2>
             <div className="flex flex-col-reverse md:flex-row items-center">
-              <img src="project4.jpg" alt="Project 4" className="w-full md:w-1/2 p-2" />
+              <img src="../../" alt="Project 4" className="w-full md:w-1/2 p-2" />
               <p className="py-2 md:w-1/2">
                 Description of Project 4. This will have an image on the right.
               </p>
