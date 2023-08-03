@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full bg-slate-600'>
+    <div id='projects' name='projects' className='w-full bg-slate-600'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center'>
         <h1 className='text-4xl sm:text-7xl text-white font-bold'>Projects</h1>
         <p className ='py-5'>Check out some of my recent work</p>
@@ -11,7 +11,7 @@ const Projects = () => {
           <div className="bg-white p-4">
             <h2 className="text-xl font-bold">Project 1</h2>
             <div className="flex flex-col md:flex-row items-center">
-              <img src="../assets/images/CareConnect.PNG" alt="Project 1" className="w-full md:w-1/2 p-2" />
+            <img src="../../assets/images/CareConnect.PNG" alt="Project 1" className="w-full md:w-1/2 p-2" />
               <p className="py-2 md:w-1/2">
                 Description of Project 1. This will have an image on the left.
               </p>

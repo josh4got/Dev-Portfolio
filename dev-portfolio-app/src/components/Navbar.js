@@ -10,18 +10,17 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-600 text-white">
       <div>
-        <img src="placeholder" alt="Logo" style={{width: '50px'}}/>
       </div>
 
-      {/* Menu */}
-      <div className='hidden md:flex ml-auto'>
-        <ul className='flex gap-3'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
-      </div>
+{/* Menu */}
+<div className='hidden md:flex ml-auto'>
+  <ul className='flex gap-3'>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
 
       {/* Menu Icon */}
       <div onClick={handleClick} className='md:hidden z-10 ml-auto'>
@@ -31,13 +30,13 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div>
         <ul className={!showMenu ? 'hidden' : 'absolute top-0 right-0 w-full h-screen bg-slate-600 flex flex-col justify-center items-center'}>
-          <li className='py-6 text-4xl'>Home</li>
-          <li className='py-6 text-4xl'>About Me</li>
-          <li className='py-6 text-4xl'>Projects</li>
-          <li className='py-6 text-4xl'>Contact</li>
+          <li className='py-6 text-4xl'><a href="#home" onClick={handleClick}>Home</a></li>
+          <li className='py-6 text-4xl'><a href="#about" onClick={handleClick}>About Me</a></li>
+          <li className='py-6 text-4xl'><a href="#projects" onClick={handleClick}>Projects</a></li>
+          <li className='py-6 text-4xl'><a href="#contact" onClick={handleClick}>Contact</a></li>
         </ul>
       </div>
-  </div>
+    </div>
   );
 };
 

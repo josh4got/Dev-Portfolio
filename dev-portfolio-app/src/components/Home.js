@@ -6,7 +6,7 @@ const Home = () => {
     const iconSize = '2rem';
 
     return (
-        <div name='home' className='w-full bg-slate-600'>
+        <div id='home' name='home' className='w-full bg-slate-600'>
             {/* Profile Img */}
             
             {/* About Me */}
@@ -17,7 +17,7 @@ const Home = () => {
                 {/* Tech Stack */}
                 <div className='md:flex items-center hidden py-5'>
                     <h1 className='text-2xl'>Tech I Know:</h1>
-                    <ul className='flex gap-2 items-center'>
+                    <ul className='flex gap-2 items-center py-5'>
                         <li className='flex flex-col items-center'>
                             <SiJavascript size={iconSize} />
                             <span>JavaScript</span>
