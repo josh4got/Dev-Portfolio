@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
     return (
-        <div name='about' className='w-full h-screen bg-slate-600'>
+        <div name='about' className='w-full bg-slate-600'>
             {/* About Me */}
-            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center'>
                 <h1 className='text-4xl sm:text-7xl text-white font-bold'>About Me</h1>
                 <p className ='py-5'>
                 I'm a full-stack web developer
@@ -12,9 +12,6 @@ const About = () => {
                 I harness my problem-solving aptitude and technical know-how to create seamless 
                 user experiences and optimize website performance.
                 </p>
-                <button className='rounded bg-white md:hidden'>
-                    Let's Connect
-                </button>
                 <p className ='py-5 hidden md:flex'>
                 My proficiency in effective communication 
                 allows me to collaborate seamlessly with cross-functional teams, ensuring tangible outcomes 
