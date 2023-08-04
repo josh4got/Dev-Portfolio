@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dev-portfolio-app/static/css/main.3ce1d624.css",
+    "main.js": "/dev-portfolio-app/static/js/main.9a72d965.js",
+    "static/media/Dinner Date.PNG": "/dev-portfolio-app/static/media/Dinner Date.00c28a3cc2c95b786931.PNG",
+    "static/media/coming-soon.jpg": "/dev-portfolio-app/static/media/coming-soon.8c526161299307477d9b.jpg",
+    "static/media/SocialNetworkApi.PNG": "/dev-portfolio-app/static/media/SocialNetworkApi.667476de6735e13115c7.PNG",
+    "static/media/CareConnect.PNG": "/dev-portfolio-app/static/media/CareConnect.7ef755c7fa88a8599d6b.PNG",
+    "static/media/Employee Tracker.PNG": "/dev-portfolio-app/static/media/Employee Tracker.84b0068a9776f2c57b48.PNG",
+    "static/media/Portrait.jpg": "/dev-portfolio-app/static/media/Portrait.5c44020119feaf6e5cd0.jpg",
+    "static/media/Joshua Bott Resume-2.pdf": "/dev-portfolio-app/static/media/Joshua Bott Resume-2.e64f8c031392703b9f7f.pdf",
+    "static/media/Deployed-JS-Quiz.PNG": "/dev-portfolio-app/static/media/Deployed-JS-Quiz.8f97cd308ecb4dfd3ac4.PNG",
+    "index.html": "/dev-portfolio-app/index.html",
+    "main.3ce1d624.css.map": "/dev-portfolio-app/static/css/main.3ce1d624.css.map",
+    "main.9a72d965.js.map": "/dev-portfolio-app/static/js/main.9a72d965.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ce1d624.css",
+    "static/js/main.9a72d965.js"
+  ]
+}
