@@ -9,23 +9,27 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-5">
           {projectList.map((project, index) => (
             <div key={index} className="p-4 rounded-lg">
-              <h2 className="text-xl font-bold">{project.title}</h2>
+              <h2 className="text-xl font-bold text-white">{project.title}</h2>
               <div className="flex flex-col md:flex-row items-center">
                 <a href={project.deployedLink}>
-                  <img src={project.image} alt={project.title} className="w-full md:w-1/2 p-2" />
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-40 object-cover"
+                  />
                 </a>
               </div>
               <p className="text-sm text-white">{project.technologies}</p>
-              <div className="flex justify-between mt-4">
+              <div className="flex gap-2 mt-4">
                 <a
                   href={project.deployedLink}
-                  className="bg-[#046E8F] text-white px-4 py-2 rounded-lg hover:bg-blue-700"
+                  className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-900"
                 >
                   View App
                 </a>
                 <a
                   href={project.githubLink}
-                  className="bg-[#046E8F] text-white px-4 py-2 rounded-lg hover:bg-blue-700"
+                  className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-900"
                 >
                   GitHub
                 </a>
