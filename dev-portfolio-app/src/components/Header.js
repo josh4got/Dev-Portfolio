@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = () => {
+const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const handleClick = () => setShowMenu(!showMenu);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-600 text-white">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#046E8F] text-white">
       <div>
       </div>
 
@@ -40,4 +40,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

@@ -2,15 +2,14 @@ import React from 'react';
 import { FiMail } from 'react-icons/fi';
 import { SiGithub, SiLinkedin } from 'react-icons/si';
 
-const Contact = () => {
+const Footer = () => {
     const iconSizeMobile = '2rem';
     const iconSizeDesktop = '3rem';
 
     return (
-        <div id='contact' name='contact' className='w-full bg-slate-600'>
+        <div id='Footer' className='w-full bg-[#046E8F]'>
             <div className='max-w-[1000px] mx-auto px-8 flex justify-center items-center py-5'>
-                <h1 className='text-4xl sm:text-7xl text-white font-bold'>Contact</h1>
-                <ul className='flex gap-3 px-10'>
+                <ul className='flex gap-10 px-10'>
                     <a href="mailto:joshbottied1@gmail.com">
                         <FiMail size={iconSizeMobile} className='sm:hidden' />
                         <FiMail size={iconSizeDesktop} className='hidden sm:block' />
@@ -29,4 +28,4 @@ const Contact = () => {
     )
 };
 
-export default Contact;
+export default Footer;
