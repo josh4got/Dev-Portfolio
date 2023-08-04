@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div id='about' name='about' className='w-full bg-slate-600'>
             {/* About Me */}
-            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center py-5'>
+            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center py-5 text-white'>
                 <h1 className='text-4xl sm:text-7xl text-white font-bold'>About Me</h1>
                 <p className ='py-5'>
                 I'm a full-stack web developer

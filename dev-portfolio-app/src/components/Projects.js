@@ -5,15 +5,14 @@ const Projects = () => {
     <div id='projects' name='projects' className='w-full bg-slate-600'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center'>
         <h1 className='text-4xl sm:text-7xl text-white font-bold'>Projects</h1>
-        <p className ='py-5'>Check out some of my recent work</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-5">
           {/* Project 1 */}
           <div className="bg-white p-4">
-            <h2 className="text-xl font-bold">Project 1</h2>
+            <h2 className="text-xl font-bold">Care Connect</h2>
             <div className="flex flex-col md:flex-row items-center">
             <img src="../../assets/images/CareConnect.PNG" alt="Project 1" className="w-full md:w-1/2 p-2" />
               <p className="py-2 md:w-1/2">
-                Description of Project 1. This will have an image on the left.
+              Care Connect is a full stack web application that enables users to manage employee information within an organization.
               </p>
             </div>
           </div>
@@ -24,29 +23,29 @@ const Projects = () => {
             <div className="flex flex-col-reverse md:flex-row items-center">
               <img src="dev-portfolio-app\src\assets\images\CareConnect.PNG" alt="Project 2" className="w-full md:w-1/2 p-2" />
               <p className="py-2 md:w-1/2">
-                Description of Project 2. This will have an image on the right.
+                Coming Soon
               </p>
             </div>
           </div>
 
           {/* Project 3 */}
           <div className="bg-white p-4">
-            <h2 className="text-xl font-bold">Project 3</h2>
+            <h2 className="text-xl font-bold">Dinner Date</h2>
             <div className="flex flex-col md:flex-row items-center">
               <img src="project3.jpg" alt="Project 3" className="w-full md:w-1/2 p-2" />
               <p className="py-2 md:w-1/2">
-                Description of Project 3. This will have an image on the left.
+              This web application can give recipe recommendations for each day of the week based on a user's preferences then lets users add them to their calendar.
               </p>
             </div>
           </div>
 
           {/* Project 4 */}
           <div className="bg-white p-4">
-            <h2 className="text-xl font-bold">Project 4</h2>
+            <h2 className="text-xl font-bold">Emplyee Tracker</h2>
             <div className="flex flex-col-reverse md:flex-row items-center">
               <img src="../../" alt="Project 4" className="w-full md:w-1/2 p-2" />
               <p className="py-2 md:w-1/2">
-                Description of Project 4. This will have an image on the right.
+              Employee Tracker is a CMS(content management system) application that adds,stores,and updates employee information in the database.
               </p>
             </div>
           </div>
