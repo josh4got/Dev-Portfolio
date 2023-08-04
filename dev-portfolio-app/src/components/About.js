@@ -1,28 +1,51 @@
-import React from "react";
+import React from 'react';
+import { SiJavascript, SiReact, SiMongodb, SiTailwindcss, SiBootstrap } from 'react-icons/si';
+import { FaNodeJs } from 'react-icons/fa';
 
 const About = () => {
+    const iconSize = '2rem';
+
     return (
-        <div id='about' name='about' className='w-full bg-slate-600'>
-            {/* About Me */}
-            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center py-5 text-white'>
-                <h1 className='text-4xl sm:text-7xl text-white font-bold'>About Me</h1>
-                <p className ='py-5'>
-                I'm a full-stack web developer
-                with a keen eye for detail and an unwavering commitment to excellence, 
-                I harness my problem-solving aptitude and technical know-how to create seamless 
-                user experiences and optimize website performance.
-                </p>
-                <p className ='py-5 hidden md:flex'>
-                My proficiency in effective communication 
-                allows me to collaborate seamlessly with cross-functional teams, ensuring tangible outcomes 
-                and surpassing expectations.
-                I'm open to embracing new opportunities and exploring fresh horizons where I can 
-                contribute my expertise and passion for creating digital solutions. If you're looking for a 
-                dynamic collaborator to make a real impact, let's connect and bring visions to life!
-                </p>
+        <div id='about' className='w-full bg-slate-600 py-24'>
+            
+            {/* Introduction */}
+            <div className='max-w-[1000px] mx-auto px-8 py-24 flex flex-col justify-center'>
+                <h1 className='text-4xl sm:text-7xl text-[#046E8F] font-bold'>Joshua Bott</h1>
+                <h2 className='text-3xl sm:text-6xl text-white'>Innovative Web Developer</h2>
+                <p className='text-xl text-white max-w-[700px] py-5'>Full stack web developer with a passion for creating innovative solutions to complex problems. I have a background in sales and service, and am excited to use my skills to help businesses grow and thrive.</p>
+                {/* Tech Stack */}
+                <div className='md:flex items-center hidden py-5'>
+                    <h1 className='text-2xl text-white'>Tech I Know:</h1>
+                    <ul className='flex gap-2 items-center py-5'>
+                        <li className='flex flex-col items-center cursor-default'>
+                            <SiJavascript size={iconSize} />
+                            <span>JavaScript</span>
+                        </li>
+                        <li className='flex flex-col items-center cursor-default'>
+                            <SiReact size={iconSize} />
+                            <span>React</span>
+                        </li>
+                        <li className='flex flex-col items-center cursor-default'>
+                            <FaNodeJs size={iconSize} />
+                            <span>Node.js</span>
+                        </li>
+                        <li className='flex flex-col items-center cursor-default'>
+                            <SiMongodb size={iconSize} />
+                            <span>MongoDb</span>
+                        </li>
+                        <li className='flex flex-col items-center cursor-default'>
+                            <SiTailwindcss size={iconSize} />
+                            <span>Tailwind CSS</span>
+                        </li>
+                        <li className='flex flex-col items-center cursor-default'>
+                            <SiBootstrap size={iconSize} />
+                            <span>Bootstrap</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    )
+    );
 };
 
 export default About;

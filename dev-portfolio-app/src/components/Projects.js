@@ -6,7 +6,7 @@ import EmployeeTracker from "../assets/Employee Tracker.PNG";
 
 const Projects = () => {
   return (
-    <div id='projects' name='projects' className='w-full bg-slate-600'>
+    <div id='projects' name='projects' className='w-full bg-slate-600 py-24'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center'>
         <h1 className='text-4xl sm:text-7xl text-white font-bold'>Projects</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-5">
