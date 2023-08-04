@@ -2,7 +2,7 @@ import React from 'react';
 import ResumePDF from '../assets/Joshua Bott Resume-2.pdf';
 function Resume() {
   return (
-    <div className='bg-slate-600 py-24 px-8'>
+    <div id='resume'className='bg-slate-600 py-24 px-8'>
       <h1 className='text-4xl sm:text-7xl font-bold text-white'>Resume</h1>
       <br></br>
       <p className='text-white'>

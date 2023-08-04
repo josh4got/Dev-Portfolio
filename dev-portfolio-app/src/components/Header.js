@@ -43,8 +43,8 @@ const Header = ({ activePage, setActivePage }) => {
           <li className={activePage === 'Projects' ? 'text-black py-6 text-4xl' : 'text-white py-6 text-4xl hover:text-black'} onClick={() => setActivePage('Projects')}>
             <a href="#projects" onClick={handleClick}>Projects</a>
           </li>
-          <li className='py-6 text-4xl hover:text-black' onClick={() => setActivePage('Home')}>
-            <a href="#home" onClick={handleClick}>Resume</a>
+          <li className='py-6 text-4xl hover:text-black' onClick={() => setActivePage('Resume')}>
+            <a href="#resume" onClick={handleClick}>Resume</a>
           </li>
           <li className={activePage === 'Contact' ? 'text-black py-6 text-4xl' : 'text-white py-6 text-4xl hover:text-black'} onClick={() => setActivePage('Contact')}>
             <a href="#contact" onClick={handleClick}>Contact</a>
