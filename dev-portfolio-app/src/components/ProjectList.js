@@ -1,9 +1,9 @@
-import CareConnect from '../assets/images/CareConnect.png';
-import DinnerDate from '../assets/images/Dinner Date.png';
-import ComingSoon from '../assets/images/coming-soon.jpg';
-import EmployeeTracker from '../assets/images/Employee Tracker.png';
-import SocialNetworkAPI from '../assets/images/SocialNetworkAPI.png';
-import JavascriptQuiz from '../assets/images/Deployesd-JS-Quiz.png';
+import CareConnect from '../assets/CareConnect.PNG';
+import DinnerDate from '../assets/Dinner Date.PNG';
+import ComingSoon from '../assets/coming-soon.jpg';
+import EmployeeTracker from '../assets/Employee Tracker.PNG';
+import SocialNetworkAPI from '../assets/SocialNetworkApi.PNG';
+import JavascriptQuiz from '../assets/Deployed-JS-Quiz.PNG';
 
 
 
