@@ -11,7 +11,7 @@ function Resume() {
         </a>
       </p>
       <br></br>
-      <h2 className='text-3xl sm:text-6xl text-white'>Developer Proficiencies</h2>
+      <h2 className='text-3xl sm:text-6xl text-white'>My Proficiencies</h2>
       <br></br>
       <ul className='text-white'>
         <li>HTML</li>
