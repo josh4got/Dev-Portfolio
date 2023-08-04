@@ -10,7 +10,7 @@ const About = () => {
             
             {/* Introduction */}
             <div className='max-w-[1000px] mx-auto px-8 py-24 flex flex-col justify-center'>
-                <h1 className='text-4xl sm:text-7xl text-[#046E8F] font-bold'>Joshua Bott</h1>
+                <h1 className='text-4xl sm:text-7xl text-black font-bold'>Joshua Bott</h1>
                 <h2 className='text-3xl sm:text-6xl text-white'>Innovative Web Developer</h2>
                 <p className='text-xl text-white max-w-[700px] py-5'>Full stack web developer with a passion for creating innovative solutions to complex problems. I have a background in sales and service, and am excited to use my skills to help businesses grow and thrive.</p>
                 {/* Tech Stack */}
