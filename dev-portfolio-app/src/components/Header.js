@@ -15,9 +15,9 @@ const Header = () => {
 {/* Menu */}
 <div className='hidden md:flex ml-auto'>
   <ul className='flex gap-3'>
-    <li className='hover:text-[#046E8F]'><a href="#home">Home</a></li>
-    <li className='hover:text-[#046E8F]'><a href="#projects">Projects</a></li>
     <li className='hover:text-[#046E8F]'><a href="#about">About</a></li>
+    <li className='hover:text-[#046E8F]'><a href="#projects">Projects</a></li>
+    <li className='hover:text-[#046E8F]'><a href="#resume">Resume</a></li>
     <li className='hover:text-[#046E8F]'><a href="#contact">Contact</a></li>
   </ul>
 </div>
