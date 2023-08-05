@@ -13,7 +13,7 @@ const About = () => {
       <div className='max-w-[1000px] mx-auto px-8 py-24 flex flex-col md:flex-row md:items-center justify-center'>
 
         {/* Portrait Image (Displayed on Mobile) */}
-        <div className='md:hidden mb-8'>
+        <div className='sm:hidden mb-8'>
           <img
             src={Portrait}
             alt='Portrait'

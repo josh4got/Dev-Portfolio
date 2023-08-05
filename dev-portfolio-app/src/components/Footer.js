@@ -18,7 +18,7 @@ const Footer = () => {
                         <SiGithub size={iconSizeMobile} className='sm:hidden' />
                         <SiGithub size={iconSizeDesktop} className='hidden sm:block' />
                     </a>
-                    <a href="https://linkedin.com/in/joshua-bott-39a597190">
+                    <a href="https://www.linkedin.com/in/joshua-bott-39a597190/">
                         <SiLinkedin size={iconSizeMobile} className='sm:hidden' />
                         <SiLinkedin size={iconSizeDesktop} className='hidden sm:block' />
                     </a>

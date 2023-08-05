@@ -13,7 +13,7 @@ const Header = ({ activePage, setActivePage }) => {
 
       {/* Menu */}
       <div className='hidden md:flex ml-auto'>
-        <ul className='flex gap-3'>
+        <ul className='flex gap-3 text-xl'>
           <li className={activePage === 'About' ? 'text-black' : 'text-white hover:text-black'} onClick={() => setActivePage('About')}>
             <a href="#about">About</a>
           </li>
