@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div id='about' className='w-full bg-slate-600 py-24'>
 
-      {/* Introduction */}
+    
       <div className='max-w-[1000px] mx-auto px-8 py-24 flex flex-col md:flex-row md:items-center justify-center'>
 
         {/* Portrait Image (Displayed on Mobile) */}
@@ -21,6 +21,7 @@ const About = () => {
           />
         </div>
 
+        {/* Introduction */}
         <div className='md:w-1/2'>
           <h1 className='text-4xl sm:text-7xl text-black font-bold'>Joshua Bott</h1>
           <h2 className='text-3xl sm:text-6xl text-white'>Innovative Web Developer</h2>

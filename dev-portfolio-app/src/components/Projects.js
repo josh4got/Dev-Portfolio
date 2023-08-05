@@ -1,5 +1,6 @@
 import React from "react";
-import projectList from "./ProjectList"; // Make sure to provide the correct path
+import projectList from "./ProjectList";
+
 
 const Portfolio = () => {
   return (

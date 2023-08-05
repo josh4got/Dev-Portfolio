@@ -52,7 +52,7 @@ const ContactForm = () => {
     const errors = validateForm(formData);
 
     if (Object.keys(errors).length === 0) {
-      // Handle form submission here, e.g., send data to the server
+      // Handle form submission here, future development
       console.log('Form submitted:', formData);
       // Clear the form after successful submission
       setFormData({ name: '', email: '', message: '' });
