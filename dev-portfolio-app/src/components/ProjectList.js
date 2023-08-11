@@ -4,6 +4,7 @@ import ComingSoon from '../assets/coming-soon.jpg';
 import EmployeeTracker from '../assets/Employee Tracker.PNG';
 import SocialNetworkAPI from '../assets/SocialNetworkApi.PNG';
 import JavascriptQuiz from '../assets/Deployed-JS-Quiz.PNG';
+import TaskHive from '../assets/TaskHive.PNG';
 
 
 
@@ -24,9 +25,9 @@ const projectList = [
     }, 
     {
         title: 'Task Hive',
-        deployedLink: '',
+        deployedLink: 'https://taskhive-3576fd3630ff.herokuapp.com/home',
         githubLink: 'https://github.com/shruthisalimath/TaskHive',
-        image: ComingSoon,
+        image: TaskHive,
         technologies: 'React, MongoDB, Express, Node.js, GraphQL, Apollo,',
     },
     {

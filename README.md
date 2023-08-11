@@ -18,17 +18,17 @@ Dev Portfolio is a full stack web application showcasing my skills, projects, an
 
 ## Installation
 
-No installation is required to view this project. Simply navigate to the deployed [Web Application](https://your-portfolio-url.com) to explore my portfolio.
+No installation is required to view this project. Simply navigate to the deployed [Web Application](https://josh4got.github.io/Dev-Portfolio/) to explore my portfolio.
 
 ## Usage
 
 To explore my portfolio, follow these simple steps:
 
-1. Navigate to the deployed [Web Application](https://your-portfolio-url.com)
+1. Navigate to the deployed Web Application
 2. Browse through the different sections to learn about my skills, projects, and background.
 3. Get in touch with me using the contact form if you have any questions or inquiries.
 
-![Portfolio Screenshot](./public/assets/screenshot.png)
+![Portfolio Screenshot](./dev-portfolio-app/src/assets/Capture.PNG)
 
 ## Technologies
 
