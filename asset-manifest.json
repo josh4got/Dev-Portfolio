@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/Dev-Portfolio/static/css/main.3ce1d624.css",
-    "main.js": "/Dev-Portfolio/static/js/main.24c692d2.js",
+    "main.js": "/Dev-Portfolio/static/js/main.dac28628.js",
     "static/media/Dinner Date.PNG": "/Dev-Portfolio/static/media/Dinner Date.00c28a3cc2c95b786931.PNG",
     "static/media/coming-soon.jpg": "/Dev-Portfolio/static/media/coming-soon.8c526161299307477d9b.jpg",
     "static/media/SocialNetworkApi.PNG": "/Dev-Portfolio/static/media/SocialNetworkApi.667476de6735e13115c7.PNG",
     "static/media/CareConnect.PNG": "/Dev-Portfolio/static/media/CareConnect.7ef755c7fa88a8599d6b.PNG",
     "static/media/Employee Tracker.PNG": "/Dev-Portfolio/static/media/Employee Tracker.84b0068a9776f2c57b48.PNG",
+    "static/media/TaskHive.PNG": "/Dev-Portfolio/static/media/TaskHive.9db00e1a6e4dbeb6c688.PNG",
     "static/media/Portrait.jpg": "/Dev-Portfolio/static/media/Portrait.5c44020119feaf6e5cd0.jpg",
     "static/media/Joshua Bott Resume-2.pdf": "/Dev-Portfolio/static/media/Joshua Bott Resume-2.e64f8c031392703b9f7f.pdf",
     "static/media/Deployed-JS-Quiz.PNG": "/Dev-Portfolio/static/media/Deployed-JS-Quiz.8f97cd308ecb4dfd3ac4.PNG",
     "index.html": "/Dev-Portfolio/index.html",
     "main.3ce1d624.css.map": "/Dev-Portfolio/static/css/main.3ce1d624.css.map",
-    "main.24c692d2.js.map": "/Dev-Portfolio/static/js/main.24c692d2.js.map"
+    "main.dac28628.js.map": "/Dev-Portfolio/static/js/main.dac28628.js.map"
   },
   "entrypoints": [
     "static/css/main.3ce1d624.css",
-    "static/js/main.24c692d2.js"
+    "static/js/main.dac28628.js"
   ]
 }
