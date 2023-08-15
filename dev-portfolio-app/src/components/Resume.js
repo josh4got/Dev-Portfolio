@@ -19,7 +19,7 @@ function Resume() {
         <li>HTML</li>
         <li>CSS</li>
         <li>Bootstrap</li>
-        <li>SiTailwindcss</li>
+        <li>Tailwindcss</li>
         <li>JavaScript</li>
         <li>JQuery</li>
         <li>Handlebars</li>
